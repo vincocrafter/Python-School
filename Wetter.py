@@ -13,7 +13,8 @@ elif pressure == "fällt" and temp == "fällt" and season == "Winter" :
 else:
     print("Nichts Genaues weiß man nicht!")
 
-#Überprüfung Eingaben
+# Überprüfung Eingaben
+# Überprüft ob die Eingaben in Ordnung sind und ob die zu den auswählbaren Eingaben gehören
 #if pressure != "steigt" and pressure != "fällt":
 #    print("Ungültiger Luftdruck")
 #    exit()
