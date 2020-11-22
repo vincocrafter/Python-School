@@ -6,6 +6,7 @@ def kreuz():
     print(" " * 2 + "##" + " " * 2)
 
 
+#Kreuz mit for schleifen
 def kreuzneu():
     for i in range(2):
         print(" " * 2 + "##")
