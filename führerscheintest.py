@@ -3,6 +3,3 @@ def test(alter) :
         print("Ja, du darfst den Führerschein machen.")
     else:
         print("Sorry, du bleibst in der Warteschleife!")
-
-def test():
-    print("Test")
