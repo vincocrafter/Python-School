@@ -16,3 +16,4 @@ def kreuzneu():
 
 
 kreuzneu()
+kreuz()
