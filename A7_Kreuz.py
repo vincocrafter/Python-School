@@ -6,7 +6,7 @@ def kreuz():
     print(" " * 2 + "##" + " " * 2)
 
 
-#Kreuz mit for schleifen
+# Kreuz mit for schleifen, eigene Idee also nicht beachten
 def kreuzneu():
     for i in range(2):
         print(" " * 2 + "##")
@@ -16,5 +16,5 @@ def kreuzneu():
         print(" " * 2 + "##")
 
 
-kreuzneu()
-kreuz()
+def einzeiler():
+    print("*" * 7 + "\n" + "*" + " " * 5 + "*" + "\n" + "*" * 7)

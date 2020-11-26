@@ -4,5 +4,5 @@ def blues(c):
 
 
 def blues2(c):
-    for i in range(c) :
+    for i in range(c):
         print("I like Blues")
