@@ -13,13 +13,13 @@ def opendat(path, name, type):
 
 
 def readdat(name):
-    file = opendat("../", name, "r")
+    file = opendat("./", name, "r")
     text = file.read()
     return text
 
 
 def writedat(name, content):
-    file = opendat("../", name, "w")
+    file = opendat("./", name, "w")
     file.write(content)
 
 def writeLine(name,content):
