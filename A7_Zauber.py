@@ -1,7 +1,7 @@
 def muster():
-    print('*'*7)
-    print('*' + ' '*5 + '*')
-    print('*'*7)
+    print('*' * 7)
+    print('*' + ' ' * 5 + '*')
+    print('*' * 7)
 
 
 def magic(name):
@@ -11,5 +11,5 @@ def magic(name):
     else:
         print("Du wirst verzaubert, Donald Duck")
 
-magic("Vincent")
 
+magic("Vincent")
