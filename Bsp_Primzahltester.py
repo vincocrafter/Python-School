@@ -7,6 +7,6 @@ while(i <= n):
         t = t + 1
     i = i + 1
 if(t == 2):
-    print(n," ist eine Primzahl")
+    print(n, " ist eine Primzahl")
 else:
-    print(n," ist Keine Primzahl")
+    print(n, " ist Keine Primzahl")
