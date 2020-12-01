@@ -1,9 +1,10 @@
-def opendat(path, name, type):  # Öffent immer die Datei und Läd sie
-    if name == 0 or name == "": # Überprüft ob der Name ungültig ist
+# Die Save first Methode
+def opendat(path, name, type):  # Methode zur öffung einer Datei
+    if len(name) == 0 or name == "" or name == None:  # Überprüft ob der Name ungültig ist
         print("Name ungültig")
         exit()
     datei = path + name
-    try:
+    try:  # Ausnahmehandlung falls es einen Fehler gibt
         in_file = open(datei, type)
     except Exception:
         print("Fehler beim öffenen der Datei")
@@ -13,14 +14,18 @@ def opendat(path, name, type):  # Öffent immer die Datei und Läd sie
 
 
 def readdat(name):
-    file = opendat("./", name, "r")
-    text = file.read()
-    return text
+    file = opendat("../", name, "r")  # Da die Dateiöffnung mehrfach benötigt wird habe ich es als Methode definiert --> Code ersparnis
+    if (file != None):
+        text = file.read()
+        return text
 
 
+# Schreibe Datei Methode
 def writedat(name, content):
-    file = opendat("./", name, "w")
-    file.write(content)
+    file = opendat("../", name,
+                   "w")  # Da die Dateiöffnung mehrfach benötigt wird habe ich es als Methode definiert --> Code ersparnis
+    if (file != None):
+        file.write(content)
 
 
 def writeLine(name, content):
