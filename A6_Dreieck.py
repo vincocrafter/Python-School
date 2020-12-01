@@ -5,4 +5,3 @@ def dreieck():
     print(" " * 2 + "*" * 7)
 
 
-dreieck()

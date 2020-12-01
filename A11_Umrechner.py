@@ -2,4 +2,4 @@ def umrechner(euro):
     return euro * 0.85
 
 
-print(umrechner(5))
+print(umrechner(3))

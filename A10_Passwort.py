@@ -13,7 +13,6 @@ def passwort():
             print("Falsches Passwort zur falschen Zeit am falschen Ort!")
         i = i + 1
 
-
 def passwort2():
     i = 1
     eingabe = ""
@@ -28,6 +27,3 @@ def passwort2():
         else:
             print("Falsches Passwort zur falschen Zeit am falschen Ort!")
         i = i - 1  # Zählervariable umgedreht Also i wird immer kleiner
-
-
-passwort2()
