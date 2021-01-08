@@ -22,7 +22,7 @@ var1 = IntVar()
 checkbutton1 = Checkbutton(root, text="Test", onvalue=1, offvalue=0, variable=var1)
 checkbutton1.grid()
 
-radiobutton1 = Radiobutton(root, text="Test", value=0)
+radiobutton1 = Radiobutton(root, text="Test", value=1)
 radiobutton1.grid()
 
 root.mainloop()
