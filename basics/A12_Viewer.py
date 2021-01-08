@@ -14,7 +14,7 @@ def opendat(path, name, type):  # Methode zur öffung einer Datei
 
 
 def readdat(name):
-    file = opendat("../", name, "r")  # Da die Dateiöffnung mehrfach benötigt wird habe ich es als Methode definiert --> Code ersparnis
+    file = opendat("../../", name, "r")  # Da die Dateiöffnung mehrfach benötigt wird habe ich es als Methode definiert --> Code ersparnis
     if (file != None):
         text = file.read()
         return text
@@ -22,7 +22,7 @@ def readdat(name):
 
 # Schreibe Datei Methode
 def writedat(name, content):
-    file = opendat("../", name,
+    file = opendat("../../", name,
                    "w")  # Da die Dateiöffnung mehrfach benötigt wird habe ich es als Methode definiert --> Code ersparnis
     if (file != None):
         file.write(content)
