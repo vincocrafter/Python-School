@@ -1,6 +1,6 @@
 # Information von mit Konstanter Größe von https://www.delftstack.com/de/howto/python-tkinter/how-to-create-a-tkinter-window-with-a-constant-size/
 
-# Geklaute Methoden aus basics/A12_Viewer.py
+
 
 from tkinter import *
 
@@ -9,7 +9,7 @@ from tkinter import Tk
 
 gui = Tk()
 
-
+# Geklaute Methoden aus basics/A12_Viewer.py
 def opendat(path, name, type):  # Methode zur öffung einer Datei
     if len(name) == 0 or name == "" or name == None:  # Überprüft ob der Name ungültig ist
         print("Name ungültig")
