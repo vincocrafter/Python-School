@@ -1,3 +1,7 @@
+#aus
+#https://ichlernepython.blogspot.com/2018/02/grid-einen-taschenrechner-programmieren.html
+
+
 from tkinter import *
 from math import *
 
